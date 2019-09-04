@@ -1,11 +1,13 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     background-image: url("http://66.media.tumblr.com/88546745978d97e0fa1ab9837c6e0c61/tumblr_na3ombhk8K1qbh74zo3_1280.jpg");
+
   }
   
   html {
     position: relative;
     border-color: tan;
+
   }
   
   main {
@@ -19,7 +21,7 @@ body {
   }
   
   .block-header {
-    color: gold;
+    color: red;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
   }
@@ -28,8 +30,7 @@ body {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 24px;
     font-weight: bold;
-    color: #fff;
-    background-color: gold;
+    color: red;
   }
 
   .navbar-default .navbar-nav > li > a:hover {
@@ -37,7 +38,6 @@ body {
   }
   
   .navbar {
-    background: tan;
     border: none;
   }
   
@@ -71,6 +71,8 @@ body {
 
   .port-image {
     margin: 20px auto;
+    float: left;
+    padding: 20px; 
   }
 
   .form-control {
@@ -84,7 +86,7 @@ body {
     font-size: 16px;
     font-weight: lighter;
     color: #fff;
-    background-color: gold;
+    background-color:red;
     border: 0;
   }
   
